@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malla Curricular ICE</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10.4.0/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Malla Curricular ICE</h1>
+    <p>Plan de estudios interactivo - Actualizado marzo 2023</p>
+  </header>
+  
+  <main>
+    <div class="mermaid">
+      graph TD
+        %% Semestre 1
+        A1["Introducción a las matemáticas"] --> A2["Cálculo I"]
+        A1 --> A3["Álgebra"]
+        A3 --> B1["Álgebra lineal"]
+        A4["Química"]
+        A5["Introducción a la ing. eléctrica"]
+        A6["Idioma extranjero I"] --> A7["Idioma extranjero II"] --> A8["Idioma extranjero III"]
+
+        %% Ejemplo de conexión hacia Semestre 2 y 3
+        B1 --> B2["Cálculo II"]
+        B2 --> B3["Cálculo III"] --> C1["Ecuaciones diferenciales"]
+
+        %% Puedes seguir agregando ramos así
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Malla Curricular ICE</p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
