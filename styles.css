@@ -1,0 +1,31 @@
+body {
+  font-family: "Times New Roman", serif;
+  background-color: #fce4ec;
+  color: #4a148c;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #ba68c8;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ce93d8;
+  color: #4a148c;
+}
+
+.mermaid {
+  background: #f8bbd0;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
